@@ -15,7 +15,9 @@ namespace LabProject
     {
         public AddClo()
         {
+
             InitializeComponent();
+//Comment
         }
         public string constr = "Data Source=DESKTOP-5DTSEQD;Initial Catalog=ProjectB;Integrated Security=True ";
 
