@@ -21,3 +21,13 @@ C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_La
 C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Clo_detail.resources
 C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Clo_update.resources
 C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.View_clo.resources
+C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Rubric_detail.resources
+C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Rubric_update.resources
+C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Rubric_level_detail.resources
+C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Rubric_level_update.resources
+C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Assessment_detail.resources
+C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Add_assessment_comp.resources
+C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Report.resources
+C:\Users\AquariuX\Videos\DBMS_Lab_Project\DBMS_Lab_Project\bin\Debug\DBMS_Lab_Project.exe.config
+C:\Users\AquariuX\Videos\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.exe
+C:\Users\AquariuX\Videos\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.pdb

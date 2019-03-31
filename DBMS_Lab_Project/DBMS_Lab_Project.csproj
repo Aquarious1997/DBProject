@@ -52,6 +52,12 @@
     <Compile Include="Add_Assessment.Designer.cs">
       <DependentUpon>Add_Assessment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Add_assessment_comp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_assessment_comp.Designer.cs">
+      <DependentUpon>Add_assessment_comp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Add_Attendance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,11 +94,17 @@
     <Compile Include="Add_Student.Designer.cs">
       <DependentUpon>Add_Student.cs</DependentUpon>
     </Compile>
-    <Compile Include="Add_studentAtt.cs">
+    <Compile Include="Add_StudentAtt.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Add_studentAtt.Designer.cs">
-      <DependentUpon>Add_studentAtt.cs</DependentUpon>
+    <Compile Include="Add_StudentAtt.Designer.cs">
+      <DependentUpon>Add_StudentAtt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assessment_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assessment_detail.Designer.cs">
+      <DependentUpon>Assessment_detail.cs</DependentUpon>
     </Compile>
     <Compile Include="Clo_detail.cs">
       <SubType>Form</SubType>
@@ -106,6 +118,12 @@
     <Compile Include="Clo_update.Designer.cs">
       <DependentUpon>Clo_update.cs</DependentUpon>
     </Compile>
+    <Compile Include="detail_ass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detail_ass.Designer.cs">
+      <DependentUpon>detail_ass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +132,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rubric_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubric_detail.Designer.cs">
+      <DependentUpon>Rubric_detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rubric_level_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubric_level_detail.Designer.cs">
+      <DependentUpon>Rubric_level_detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rubric_level_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubric_level_update.Designer.cs">
+      <DependentUpon>Rubric_level_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rubric_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubric_update.Designer.cs">
+      <DependentUpon>Rubric_update.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student_detail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +173,12 @@
     </Compile>
     <Compile Include="Student_Update.Designer.cs">
       <DependentUpon>Student_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update_ass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_ass.Designer.cs">
+      <DependentUpon>update_ass.cs</DependentUpon>
     </Compile>
     <Compile Include="View_clo.cs">
       <SubType>Form</SubType>
@@ -140,6 +194,9 @@
     </Compile>
     <EmbeddedResource Include="Add_Assessment.resx">
       <DependentUpon>Add_Assessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_assessment_comp.resx">
+      <DependentUpon>Add_assessment_comp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Add_Attendance.resx">
       <DependentUpon>Add_Attendance.cs</DependentUpon>
@@ -159,14 +216,20 @@
     <EmbeddedResource Include="Add_Student.resx">
       <DependentUpon>Add_Student.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Add_studentAtt.resx">
-      <DependentUpon>Add_studentAtt.cs</DependentUpon>
+    <EmbeddedResource Include="Add_StudentAtt.resx">
+      <DependentUpon>Add_StudentAtt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assessment_detail.resx">
+      <DependentUpon>Assessment_detail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Clo_detail.resx">
       <DependentUpon>Clo_detail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Clo_update.resx">
       <DependentUpon>Clo_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detail_ass.resx">
+      <DependentUpon>detail_ass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -180,11 +243,29 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rubric_detail.resx">
+      <DependentUpon>Rubric_detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rubric_level_detail.resx">
+      <DependentUpon>Rubric_level_detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rubric_level_update.resx">
+      <DependentUpon>Rubric_level_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rubric_update.resx">
+      <DependentUpon>Rubric_update.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Student_detail.resx">
       <DependentUpon>Student_detail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Student_Update.resx">
       <DependentUpon>Student_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_ass.resx">
+      <DependentUpon>update_ass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View_clo.resx">
       <DependentUpon>View_clo.cs</DependentUpon>

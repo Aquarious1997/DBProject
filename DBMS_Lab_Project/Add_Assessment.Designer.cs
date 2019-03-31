@@ -41,6 +41,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -57,10 +58,9 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
@@ -155,6 +155,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Mark Attendance";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -197,6 +198,7 @@
             this.button12.TabIndex = 25;
             this.button12.Text = "View All";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // panel3
             // 
@@ -221,6 +223,21 @@
             this.panel3.Size = new System.Drawing.Size(626, 458);
             this.panel3.TabIndex = 11;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Candara", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
+            this.button13.Location = new System.Drawing.Point(375, 106);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(239, 34);
+            this.button13.TabIndex = 34;
+            this.button13.Text = "Set Assessment Components";
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // label4
             // 
@@ -412,6 +429,14 @@
             this.panel1.Size = new System.Drawing.Size(132, 499);
             this.panel1.TabIndex = 9;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
+            this.panel4.Location = new System.Drawing.Point(11, 397);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(120, 5);
+            this.panel4.TabIndex = 32;
+            // 
             // button8
             // 
             this.button8.FlatAppearance.BorderSize = 0;
@@ -424,6 +449,7 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "Student Result";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -437,28 +463,6 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "Manage Assessment";
             this.button7.UseVisualStyleBackColor = true;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
-            this.panel4.Location = new System.Drawing.Point(11, 396);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(120, 5);
-            this.panel4.TabIndex = 32;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Candara", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
-            this.button13.Location = new System.Drawing.Point(375, 106);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(239, 34);
-            this.button13.TabIndex = 34;
-            this.button13.Text = "Set Assessment Components";
-            this.button13.UseVisualStyleBackColor = false;
             // 
             // Add_Assessment
             // 

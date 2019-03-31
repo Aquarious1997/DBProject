@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace DBMS_Lab_Project
 {
     public partial class Add_Attendance : Form
     {
+        public string constr = "Data Source=DESKTOP-5DTSEQD;Initial Catalog=ProjectB;Integrated Security=True";
         public Add_Attendance()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace DBMS_Lab_Project
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Add_studentAtt frm = new Add_studentAtt();
+            Add_StudentAtt frm = new Add_StudentAtt();
             frm.Show();
             this.Hide();
         }
@@ -79,6 +81,24 @@ namespace DBMS_Lab_Project
         private void button10_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            SqlConnection conn = new SqlConnection(constr);
+            conn.Open();
+            if (conn.State == ConnectionState.Open)
+            {
+                string query = "INSERT INTO ClassAttendance(AttendanceDate)values('" + Convert.ToDateTime(dateTimePicker1.Text) + "')";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Date Set Successfully");
+                dateTimePicker1.Value = DateTime.Now;
+            }
+            else
+            {
+                MessageBox.Show("Error");
+            }
         }
     }
 }

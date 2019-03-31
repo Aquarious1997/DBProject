@@ -45,6 +45,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button12 = new System.Windows.Forms.Button();
@@ -55,7 +56,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -277,6 +277,14 @@
             this.panel1.Size = new System.Drawing.Size(132, 499);
             this.panel1.TabIndex = 3;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
+            this.panel4.Location = new System.Drawing.Point(11, 286);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(120, 5);
+            this.panel4.TabIndex = 12;
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.pictureBox3);
@@ -312,12 +320,13 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Candara", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
-            this.button12.Location = new System.Drawing.Point(163, 393);
+            this.button12.Location = new System.Drawing.Point(279, 353);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(125, 34);
+            this.button12.Size = new System.Drawing.Size(111, 34);
             this.button12.TabIndex = 27;
             this.button12.Text = "View All";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button11
             // 
@@ -328,10 +337,11 @@
             this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.button11.Location = new System.Drawing.Point(163, 353);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(125, 34);
+            this.button11.Size = new System.Drawing.Size(111, 34);
             this.button11.TabIndex = 26;
             this.button11.Text = "Add Rubric";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // comboBox1
             // 
@@ -393,14 +403,6 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "Add Rubric";
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
-            this.panel4.Location = new System.Drawing.Point(11, 286);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(120, 5);
-            this.panel4.TabIndex = 12;
-            // 
             // Add_Rubric
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -413,6 +415,7 @@
             this.Name = "Add_Rubric";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add_Rubric";
+            this.Load += new System.EventHandler(this.Add_Rubric_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
