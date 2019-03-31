@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79E133EA-9122-41E0-B0D5-4D610DADBD0B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DBMS_Lab_Project</RootNamespace>
+    <AssemblyName>DBMS_Lab_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Assessment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Assessment.Designer.cs">
+      <DependentUpon>Add_Assessment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Attendance.Designer.cs">
+      <DependentUpon>Add_Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_clo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_clo.Designer.cs">
+      <DependentUpon>Add_clo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Result.Designer.cs">
+      <DependentUpon>Add_Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Rubric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Rubric.Designer.cs">
+      <DependentUpon>Add_Rubric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Rubric_Level.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Rubric_Level.Designer.cs">
+      <DependentUpon>Add_Rubric_Level.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Student.Designer.cs">
+      <DependentUpon>Add_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_studentAtt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_studentAtt.Designer.cs">
+      <DependentUpon>Add_studentAtt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clo_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clo_detail.Designer.cs">
+      <DependentUpon>Clo_detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clo_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clo_update.Designer.cs">
+      <DependentUpon>Clo_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_detail.Designer.cs">
+      <DependentUpon>Student_detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Update.Designer.cs">
+      <DependentUpon>Student_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_clo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_clo.Designer.cs">
+      <DependentUpon>View_clo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_student.Designer.cs">
+      <DependentUpon>View_student.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_Assessment.resx">
+      <DependentUpon>Add_Assessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Attendance.resx">
+      <DependentUpon>Add_Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_clo.resx">
+      <DependentUpon>Add_clo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Result.resx">
+      <DependentUpon>Add_Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Rubric.resx">
+      <DependentUpon>Add_Rubric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Rubric_Level.resx">
+      <DependentUpon>Add_Rubric_Level.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Student.resx">
+      <DependentUpon>Add_Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_studentAtt.resx">
+      <DependentUpon>Add_studentAtt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clo_detail.resx">
+      <DependentUpon>Clo_detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clo_update.resx">
+      <DependentUpon>Clo_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Student_detail.resx">
+      <DependentUpon>Student_detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Update.resx">
+      <DependentUpon>Student_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_clo.resx">
+      <DependentUpon>View_clo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_student.resx">
+      <DependentUpon>View_student.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
