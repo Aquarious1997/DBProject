@@ -137,10 +137,11 @@ namespace DBMS_Lab_Project
 
         private void button12_Click(object sender, EventArgs e)
         {
-            int var1 = int.Parse(dataGridView1.Rows[r].Cells[0].Value.ToString());
-            update_ass frm = new update_ass(var1);
+            int ID = int.Parse(dataGridView1.Rows[r].Cells[0].Value.ToString());
+            Assessment_update frm = new Assessment_update(ID);
             frm.Show();
             this.Hide();
+
         }
     }
 }

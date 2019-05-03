@@ -28,6 +28,6 @@ C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_La
 C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Assessment_detail.resources
 C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Add_assessment_comp.resources
 C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Report.resources
-C:\Users\AquariuX\Videos\DBMS_Lab_Project\DBMS_Lab_Project\bin\Debug\DBMS_Lab_Project.exe.config
-C:\Users\AquariuX\Videos\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.exe
-C:\Users\AquariuX\Videos\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.pdb
+C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\bin\Debug\itextsharp.dll
+C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\bin\Debug\itextsharp.xml
+C:\Users\AquariuX\Documents\Visual Studio 2015\Projects\DBMS_Lab_Project\DBMS_Lab_Project\obj\Debug\DBMS_Lab_Project.Assessment_update.resources

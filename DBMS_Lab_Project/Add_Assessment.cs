@@ -67,7 +67,8 @@ namespace DBMS_Lab_Project
 
         private void Add_Assessment_Load(object sender, EventArgs e)
         {
-            button13.Visible = false;
+           // button13.Visible = false;
+            linkLabel1.Enabled = false;
 
         }
 
@@ -89,7 +90,8 @@ namespace DBMS_Lab_Project
                 MessageBox.Show("Error In connection");
 
             }
-            button13.Visible = true;
+            // button13.Visible = true;
+            linkLabel1.Enabled = true;
 
         }
 
@@ -114,7 +116,9 @@ namespace DBMS_Lab_Project
             this.Hide();
         }
 
-        private void button13_Click(object sender, EventArgs e)
+        
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Add_assessment_comp frm = new Add_assessment_comp();
             frm.Show();

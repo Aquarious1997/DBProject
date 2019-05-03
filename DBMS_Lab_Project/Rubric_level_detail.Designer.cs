@@ -43,6 +43,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -161,7 +162,7 @@
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Candara", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
-            this.button14.Location = new System.Drawing.Point(472, 139);
+            this.button14.Location = new System.Drawing.Point(379, 139);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(87, 34);
             this.button14.TabIndex = 29;
@@ -238,6 +239,20 @@
             this.button3.Text = "Mark Attendance";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Candara", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
+            this.button13.Location = new System.Drawing.Point(663, 139);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(87, 34);
+            this.button13.TabIndex = 28;
+            this.button13.Text = "Detail";
+            this.button13.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -323,7 +338,7 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Candara", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
-            this.button11.Location = new System.Drawing.Point(566, 139);
+            this.button11.Location = new System.Drawing.Point(473, 139);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(87, 34);
             this.button11.TabIndex = 27;
@@ -338,7 +353,7 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Candara", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
-            this.button12.Location = new System.Drawing.Point(660, 139);
+            this.button12.Location = new System.Drawing.Point(567, 139);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(87, 34);
             this.button12.TabIndex = 26;
@@ -366,6 +381,7 @@
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.button14);
+            this.panel3.Controls.Add(this.button13);
             this.panel3.Controls.Add(this.button11);
             this.panel3.Controls.Add(this.button12);
             this.panel3.Controls.Add(this.button9);
@@ -417,6 +433,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label3;
